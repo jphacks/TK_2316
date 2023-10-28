@@ -1,0 +1,21 @@
+{
+    "name": "サディステック",
+    "description": "this application is clear the stress",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions":[
+        "tabs"
+    ],
+    "background":{
+        "service_worker":"background.js"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "content_scripts":[
+        {
+            "js":["script.js"],
+            "matches":["<all_urls>"]
+        }
+    ]
+}

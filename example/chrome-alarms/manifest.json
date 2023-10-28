@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "alarm",
+    "version": "1.0",
+    "description": "This is an alarm extension",
+    "permissions": [
+        "alarms"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "alarm alarm",
+        "default_popup": "popup.html"
+    }
+}
