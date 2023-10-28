@@ -1,0 +1,15 @@
+{
+    "name": "Blog Test Extension",
+    "version": "1.0",
+    "description": "Blog Test Extension",
+    "manifest_version": 3,
+    "permissions": ["activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["jquery-3.6.4.min.js","content_script.js"]
+    }]
+  }

@@ -1,5 +1,6 @@
 const init = async () => {
     const body = document.body;
+    let counter
 
     const div = document.createElement("div");
     div.setAttribute("id", "cat-image-wrapper");
@@ -22,6 +23,10 @@ const init = async () => {
         timerId = setTimeout(function () {
             catImage.src = chrome.runtime.getURL("images/black_cat.png");
         }, 5000);
+    });
+
+    document.addEventListener('keydown',(){
+        document.getElementById('output').innterText = counter += 1;
     });
 };
 
