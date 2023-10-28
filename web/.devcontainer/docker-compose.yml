@@ -1,0 +1,10 @@
+name: sadisteck
+version: '3'
+services:
+  web:
+    build: ./
+    tty: true
+    volumes:
+      - ../:/go/src
+    ports:
+      - "3000:3000"
