@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Click Counter",
+  "version": "1.0.0",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  },   
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon_16.png"
+    },
+    "default_active_icon": {
+      "16": "active_icon_16.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}
