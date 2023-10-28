@@ -1,0 +1,15 @@
+#cat-image-wrapper {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    z-index: 10000;
+}
+
+.cat-image {
+    width: 80px;
+    height: auto;
+}
+
+.cat-image:hover {
+    cursor: pointer;
+}
