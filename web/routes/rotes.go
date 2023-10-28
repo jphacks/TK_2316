@@ -1,9 +1,9 @@
 package routes
 
 import (
-	
-	"web/controllers"
-	"github.com/gin-gonic/gin"
+	"html/template" 
+    "web/controllers"
+    "github.com/gin-gonic/gin"
 )
 
 var customFuncs = template.FuncMap{
