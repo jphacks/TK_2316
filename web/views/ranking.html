@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>User Ranking</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Sadistic Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range .users }}
+            <tr>
+                <td>{{ .Name }}</td>
+                <td>{{ .SadisticScore }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+    <script src="/static/script.js"></script>
+</body>
+</html>
