@@ -8,13 +8,13 @@
 
 ローカルにクローン `git clone https://github.com/jphacks/TK_2316.git`
 
-### 拡張機能
+#### 拡張機能
 1. Chromeの[拡張機能管理](chrome://extensions/) を開く
 2. デベロッパーツールをオン
 3. 「パッケージ化されていない拡張機能を取り込む」で、クローンしたフォルダ内の`TK_2316/ext/click-counter`を選択
 [![how to install](doc/拡張機能の取り込み方.jpg)]
 
-### Faceウインドウ
+#### Faceウインドウ
 1. `cd TK_2316/face/.devcontainer`
 2. `docker compose up -d`
 ※初回起動時は立ち上げ後も、裏でインストール作業を行っているのでしばらく放置（docker logsなどで確認してください）
@@ -25,7 +25,7 @@
 4. `yarn dev`
 5. http://localhost:8090で確認
 
-### ランキングページ
+#### ランキングページ
 1. `cd TK_2316/web/.devcontainer`
 2. `docker compose up -d`
 ここから先は未完成
