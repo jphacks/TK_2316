@@ -1,0 +1,32 @@
+version: "3"
+
+services:
+  three: # サービス名は変数は使えない
+    container_name: "three"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        LOCALUID: 1000
+        LOCALUNAME: sebas
+        LOCALGID: 1000
+        LOCALGNAME: sebas
+        APP_PATH: /app
+    volumes:
+      - ../app:/app
+    command: dumb-init /bin/sh # PID1問題（シグナル伝搬とプロセス終了）への対応 :
+    tty: true
+    ports:
+      - 8090:8090
+
+  ngrok-next:
+    container_name: ngrok-next
+    image: ngrok/ngrok:latest
+    restart: unless-stopped
+    command: ["http", "--host-header=rewrite","0.0.0.0:8090"]
+    ports:
+      - 4040:4040
+    depends_on:
+      - three
+    environment:
+      - NGROK_AUTHTOKEN
