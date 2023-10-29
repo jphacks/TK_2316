@@ -2,6 +2,8 @@
 
 [![コンセプト画像](doc/product-image.jpg)](https://www.canva.com/design/DAFyjDwYudg/uFacFqQrZyGtH29hhGCiKA/view?utm_content=DAFyjDwYudg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
+[![コンセプト画像2](doc/architect.png)](https://www.canva.com/design/DAFyjDwYudg/uFacFqQrZyGtH29hhGCiKA/view?utm_content=DAFyjDwYudg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 ## 製品概要
 
 表向きは、昨今の社会風潮へのアンチテーゼなサディストのためのネタツールです。
