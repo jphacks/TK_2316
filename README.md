@@ -1,6 +1,6 @@
 # SADISxTECH
 
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2023/07/JPHACKS2023_ogp.png)](https://www.youtube.com/watch?v=yYRQEdfGjEg)
+[![コンセプト画像](/workspaces/TK_2316/doc/product-image.jpg)](https://www.youtube.com/watch?v=lDEY7gqv22k)
 
 ## 製品概要
 
