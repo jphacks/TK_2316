@@ -12,7 +12,7 @@
 1. Chromeの[拡張機能管理](chrome://extensions/) を開く
 2. デベロッパーツールをオン
 3. 「パッケージ化されていない拡張機能を取り込む」で、クローンしたフォルダ内の`TK_2316/ext/click-counter`を選択
-[how to install](doc/拡張機能の取り込み方.jpg)
+![how to install](doc/拡張機能の取り込み方.jpg)
 
 #### Faceウインドウ
 1. `cd TK_2316/face/.devcontainer`
