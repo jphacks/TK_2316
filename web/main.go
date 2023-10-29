@@ -9,7 +9,7 @@ import (
 
 func initConfig() error {
     viper.SetConfigName("config")  // 設定ファイルの名前（拡張子なし）
-    viper.AddConfigPath("/mnt/c/Users/Student/TK_2316/")  // 設定ファイルのパスを追加
+    viper.AddConfigPath("/win-dir/TK_2316_Re/")  // 設定ファイルのパスを追加
     return viper.ReadInConfig()  // 設定ファイルを読み込む
 }
 
