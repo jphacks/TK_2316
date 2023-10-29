@@ -12,7 +12,7 @@
 1. Chromeの[拡張機能管理](chrome://extensions/) を開く
 2. デベロッパーツールをオン
 3. 「パッケージ化されていない拡張機能を取り込む」で、クローンしたフォルダ内の`TK_2316/ext/click-counter`を選択
-[![how to install](/workspaces/TK_2316/doc/拡張機能の取り込み方.jpg)]
+[![how to install](doc/拡張機能の取り込み方.jpg)]
 
 ### Faceウインドウ
 1. `cd TK_2316/face/.devcontainer`
@@ -20,6 +20,7 @@
 ※初回起動時は立ち上げ後も、裏でインストール作業を行っているのでしばらく放置（docker logsなどで確認してください）
 
 以下、コンテナ内で
+
 3. `cd /app`
 4. `yarn dev`
 5. http://localhost:8090で確認
