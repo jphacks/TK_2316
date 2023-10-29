@@ -1,6 +1,6 @@
 # SADISxTECH
 
-[![コンセプト画像](doc/product-image.jpg)](https://www.youtube.com/watch?v=lDEY7gqv22k)
+[![コンセプト画像](doc/product-image.jpg)](https://www.canva.com/design/DAFyjDwYudg/uFacFqQrZyGtH29hhGCiKA/view?utm_content=DAFyjDwYudg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ## 製品概要
 
@@ -8,7 +8,7 @@
 
 ブラウザ行動を監視して、静かに暴力性を吐き出してもらえるようtechで解決します。
 
-[プレゼン](https://www.canva.com/design/DAFyjDwYudg/uFacFqQrZyGtH29hhGCiKA/view?utm_content=DAFyjDwYudg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+[プレゼン資料](https://www.canva.com/design/DAFyjDwYudg/uFacFqQrZyGtH29hhGCiKA/view?utm_content=DAFyjDwYudg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ### 背景(製品開発のきっかけ、課題等）
 
