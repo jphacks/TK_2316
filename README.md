@@ -97,7 +97,7 @@
 
 - ext		拡張機能の本番環境
 
-- web		webページ（ランキング）
+- web		ランキングのwebページ（ginのdocker環境）
     ├─.devcontainer
     ├─controllers
     ├─models
@@ -105,7 +105,7 @@
     ├─static
     └─views
 
-- face		拡張機能で表示するMウインドウのWEbページ
+- face		拡張機能で表示するMウインドウのWEbページ（next・threeのdocker環境）
 
 ```
 
