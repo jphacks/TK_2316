@@ -91,18 +91,21 @@
 
 #### ディレクトリ構成
 ```
-- doc  *要件整理や、進捗確認などあらゆるドキュメント*
-- example  *chrome拡張機能に関するプログラム練習場所*
+- doc		要件整理や、進捗確認などあらゆるドキュメント
 
-- ext  *拡張機能の本番環境*
-- web  *webページ（ランキング）*
+- example	chrome拡張機能に関するプログラム練習場所
+
+- ext		拡張機能の本番環境
+
+- web		webページ（ランキング）
     ├─.devcontainer
     ├─controllers
     ├─models
     ├─routes
     ├─static
     └─views
-- face  *拡張機能で表示するMウインドウのWEbページ*
+
+- face		拡張機能で表示するMウインドウのWEbページ
 
 ```
 
