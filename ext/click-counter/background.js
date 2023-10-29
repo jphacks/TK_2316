@@ -15,7 +15,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     // counting が true の場合、viewer.html を表示
     if (counting) {
       chrome.windows.create({
-        url: 'viewer.html',
+        url: 'http://localhost:8090',
         type: 'popup',
         width: 300,
         height: 300
