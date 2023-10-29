@@ -8,6 +8,8 @@
 
 昨今問題とされているハラスメントにアサインします。
 
+プレゼン = https://www.canva.com/design/DAFyjDwYudg/uFacFqQrZyGtH29hhGCiKA/view?utm_content=DAFyjDwYudg&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
 ### 背景(製品開発のきっかけ、課題等）
 
 デスクワークの疲労を解消したくないですか？
