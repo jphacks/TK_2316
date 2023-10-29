@@ -4,23 +4,19 @@
 
 ## 製品概要
 
-サディストの皆さんのためのストレス発散ツールです。
+表向きはサディストのための、昨今の社会風潮へのアンチテーゼツールです。
+ブラウザ行動を監視して、静かに暴力性を吐き出してもらえるようtechで解決します。
 
-昨今問題とされているハラスメントにアサインします。
-
-プレゼン = https://www.canva.com/design/DAFyjDwYudg/uFacFqQrZyGtH29hhGCiKA/view?utm_content=DAFyjDwYudg&utm_campaign=designshare&utm_medium=link&utm_source=editor
+[プレゼン](https://www.canva.com/design/DAFyjDwYudg/uFacFqQrZyGtH29hhGCiKA/view?utm_content=DAFyjDwYudg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ### 背景(製品開発のきっかけ、課題等）
 
-デスクワークの疲労を解消したくないですか？
+気楽に暴力もふるえない世知辛い世の中になりました。
 
-エラーまみれのコードにイライラしたとき、キーボードを強くたたきストレスを解消したいと考えるでしょう。
+[link](https://www.stat.go.jp/data/kokusei/2005/sokuhou/03.htm)
 
-link = https://www.stat.go.jp/data/kokusei/2005/sokuhou/03.htm
 
-しかし、この衝動は周囲から曲防錆を認知され、いざサディスティックを披露する場で魅力的なギャップが生まれません。
-
-そこで私たちは上記の問題を解決するためのchrome拡張機能を開発しました。
+この問題を解決するためのchrome拡張機能を開発しました。
 
 この機能「SADISTECH」をオンにすると、画面のクリックイベントのたびに公式キャラ「M」を鞭でたしなめることができます。
 
