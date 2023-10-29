@@ -50,7 +50,7 @@ link = https://www.stat.go.jp/data/kokusei/2005/sokuhou/03.htm
 ## 開発技術
 ### 活用した技術
 #### API・データ
-* 
+*
 #### ファイルの構成(**で説明追記)
 ```
 ├─doc  *進捗確認などあらゆるドキュメント*
@@ -80,12 +80,13 @@ link = https://www.stat.go.jp/data/kokusei/2005/sokuhou/03.htm
 ```
 
 #### フレームワーク・ライブラリ・モジュール
-* 
-* 
+- gin
+- next.js
+- three.js
+- docker
 
 #### デバイス
-* 
-* 
+- PC
 
 ### 独自技術
 #### ハッカソンで開発した独自機能・技術
