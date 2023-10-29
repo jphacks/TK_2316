@@ -30,7 +30,7 @@ const ThreeScene = () => {
             scene.add(mesh);
             
             // モデルの設定
-            mesh.scale.set(2, 2, 2); // モデルのスケール設定
+            mesh.scale.set(12, 12, 12); // モデルのスケール設定
 
             // アニメーションの設定
             const mixer = new THREE.AnimationMixer(mesh);
