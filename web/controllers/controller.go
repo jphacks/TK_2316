@@ -1,7 +1,6 @@
 package controllers
 
 import (
-    "fmt"
     "net/http"
     "web/models"
     "github.com/gin-gonic/gin"
@@ -9,7 +8,6 @@ import (
 
 func GetRanking(c *gin.Context) {
     rankings, err := models.GetRanking()
-    fmt.Printf("%v\n",rankings)
     if err != nil {
         c.JSON(http.StatusInternalServerError, gin.H{"error": "Unable to fetch ranking", "details": err.Error()})
         return

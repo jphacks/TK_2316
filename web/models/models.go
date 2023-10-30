@@ -42,12 +42,10 @@ func Migrate() {
 func GetRanking() ([]Ranking, error) {
     var rankings []Ranking
     err := DB.Order("sadistic_score desc").Find(&rankings).Error
-    fmt.Printf("%v\n",rankings)
     return rankings, err
 }
 
 func UpdateOrCreateRanking(ranking *Ranking) error {
-    fmt.Printf("%v\n",ranking.SadisticScore)
     err := DB.Where("name = ?", ranking.Name).FirstOrCreate(ranking).Error
     return err
 }
